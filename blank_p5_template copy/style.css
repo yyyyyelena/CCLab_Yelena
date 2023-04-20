@@ -1,0 +1,11 @@
+body{
+    margin:0;
+    background-color: coral;
+
+}
+
+/* the # let us style the element with a given ID */
+#canvasContainer{
+    margin-left:30px;
+        
+}
