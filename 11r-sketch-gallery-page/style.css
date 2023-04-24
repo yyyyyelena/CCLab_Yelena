@@ -1,0 +1,16 @@
+head,body{
+    background-color: coral;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+#canvasContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
