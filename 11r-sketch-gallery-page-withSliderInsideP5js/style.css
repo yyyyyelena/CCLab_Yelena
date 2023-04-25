@@ -1,0 +1,30 @@
+head,body{
+    background-color: seagreen;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: cursive;
+    size-adjust: large;
+}
+
+#canvasContainer{
+    display: flex;
+    position: relative;
+    margin-left:35vh;
+    
+
+    /* margin-top:100px; */
+}
+
+#instructions{
+    color: white;
+    width: 30vh;
+    position:fixed;
+    margin-top: -100vh;
+    background-color: #ff007f;
+    padding-left: 10px;
+}
