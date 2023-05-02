@@ -13,51 +13,83 @@ body {
 
 
 h1{
+    position:fixed;
     text-align: center;
+    left: 50%;
+    transform: translate(-50%,0);
+    width:100%;
+
     font-size: xxx-large;
     font-family: 'Futura';
     color: rgb(255, 243, 243);
-    white-space: nowrap;
-    margin:auto;
-    z-index: 1;
+    background:#A43B2C;
 
+    white-space: nowrap;
+    margin:2vh;
+    z-index:10;
 }
+
+.pictures{
+    display: block;
+    position: relative;
+}
+
 
 #I_Paint_my_own {
-    display: flex;
-    position: relative;
-
     opacity: 1;
     transition: opacity 7s ease-in-out;
-    justify-content: center;
-    align-items: center;
     max-height: 100vh;
-    margin-left: 1vh;
+    margin-left: 3vh;
+    margin-top: 2vh;
     /* margin-top:-20%;  */
     z-index: 0;
-
 }
 
-.basic_information{
+.texts{
     display: flex;
     position: relative;
 
-    margin-left:70vh;
-    margin-top:-80vh;
+/* text setup */
+    color: white;
+    padding-left: 10px;
+    /* text-align:justify;  */
 
+/* border setups */
     border: 8px;
     border-style: double;
     border-color: white;
-
-    color: white;
-    /* display: inline-block; */
-    padding-left: 10px; /* Adjust this as needed */
-    /* margin-top: -60%; */
     width: 500px;
-    
-    align-self: center; 
-    
+
     z-index: 1;
 }
 
+#frida_Intro{
+    margin-left:50%;
+    margin-top:-80vh;
+    z-index: 0;     
+}
 
+#The_Two_Fridas{
+    margin-top: 20vh;
+    margin-left: 15vh;
+    /* width:50%; this is not working */
+
+    /* padding-right: 0%; */
+}
+
+#The_Two_Fridas_Paintings{
+    display:block;
+    width:50vh;
+    margin-left:60%;
+    margin-top:-25%;
+    z-index: 1;
+
+}
+
+#self_portrait_dedicated_to_drEloesser{
+    display:block;
+    width:50vh;
+    margin-left:25vh;
+    z-index: 1;
+
+}

@@ -1,0 +1,66 @@
+head,body{
+    background-color: grey;
+    margin: 0;
+}
+
+
+#canvasContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower1{
+    background-image: url("CCLab_Yelena/projectB/Flower-1.png");
+    background-size: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+h1{
+    color: white;
+}
+
+.stampsGallery{
+    display:flex;
+    scale:3%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+  
+#start_capture{
+    display:flex;
+    margin-bottom: 3vh;
+}
+
+
+.bigWrapper{
+    width:100%;
+    max-width: 800px;
+    height:100px;
+    background-color: blue;
+    margin:auto;
+
+}
+#canvasContainer{
+    /* width:100%; */
+    /* height:100px; */
+    background-color: green;
+    aspect-ratio: 4 / 3;
+}
+.stampContainer{
+    display: flex;
+    justify-content: space-around;
+
+}
+.singleStamp{
+    outline: 1px solid red;
+    cursor: pointer;
+}
+
+.shutterWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
