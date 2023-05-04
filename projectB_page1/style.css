@@ -1,95 +1,98 @@
-/* basic webpage set-up */
-head,body{
-    background-color: rgb(48, 46, 46);
-
-
+/* Set the background color for the whole page */
+head, body {
+    background: linear-gradient(to bottom, #301508, #443625, #2e3d3d,#182e2e);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
+/* Set the font color and display mode for the page */
 body {
-	background-color: rgb(48, 46, 46);
-	color: white;
-    /* display: flex; Add this to make the body a flex container */
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-h1{
-    position:fixed;
+/* Set the style for the page title */
+h1 {
+    position: fixed;
     text-align: center;
     left: 50%;
-    transform: translate(-50%,0);
-    width:100%;
-
+    transform: translate(-50%, 0);
+    width: 100%;
     font-size: xxx-large;
     font-family: 'Futura';
     color: rgb(255, 243, 243);
-    background:#A43B2C;
-
+    background: #A43B2C;
     white-space: nowrap;
-    margin:2vh;
-    z-index:10;
+    margin: 2vh;
+    z-index: 10;
 }
 
-.pictures{
+img{
     display: block;
-    position: relative;
+    margin: 0 auto;
 }
 
-
-#I_Paint_my_own {
-    opacity: 1;
-    transition: opacity 7s ease-in-out;
-    max-height: 100vh;
-    margin-left: 3vh;
-    margin-top: 2vh;
-    /* margin-top:-20%;  */
-    z-index: 0;
+#I_Paint_my_own img{
+    max-width:80%;
+    height:auto;
 }
 
-.texts{
-    display: flex;
-    position: relative;
+.introWrapper, .two_fridas, .selfPortrait, .frame{
+    /* background-color: aquamarine; */
+    width:fit-content;
+    display: flex;    
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
 
-/* text setup */
-    color: white;
-    padding-left: 10px;
-    /* text-align:justify;  */
+#two_fridas_paintings img, #selfPortrait_paintings img{
+    max-width: 500px;
+}
+#theFrame img{
+    max-width:400px;
+}
 
-/* border setups */
-    border: 8px;
-    border-style: double;
+.Texts{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; /* center vertically */
+}
+
+.introText{
+    margin-left:auto;               
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:15px;
+    max-width:90vh;
     border-color: white;
-    width: 500px;
-
-    z-index: 1;
+    border-style:inset;
+    font-size: 20px;
+    line-height: 1.6;
 }
 
-#frida_Intro{
-    margin-left:50%;
-    margin-top:-80vh;
-    z-index: 0;     
+#foto{
+    width:400px;
+    height:auto;
+    display:flex;
+    margin-left:20vh;
 }
 
-#The_Two_Fridas{
-    margin-top: 20vh;
-    margin-left: 15vh;
-    /* width:50%; this is not working */
 
-    /* padding-right: 0%; */
-}
-
-#The_Two_Fridas_Paintings{
-    display:block;
-    width:50vh;
-    margin-left:60%;
-    margin-top:-25%;
-    z-index: 1;
-
-}
-
-#self_portrait_dedicated_to_drEloesser{
-    display:block;
-    width:50vh;
-    margin-left:25vh;
-    z-index: 1;
-
-}
+/* hyper link styling */
+a:link, a:visited {
+    background-color: #516e24;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #97c9c9;
+  }
+  

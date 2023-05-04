@@ -1,66 +1,153 @@
-head,body{
-    background-color: grey;
+head,
+body {
+    background: linear-gradient(to bottom, #b24577, #d96948, #d26240,#de7a95);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
     margin: 0;
 }
 
+.headline {
+    display: block;
+    text-align: center;
 
-#canvasContainer{
+    font-size: xxx-large;
+    font-family: 'Futura';
+    color: rgb(255, 243, 243);
+    background: #d15e3e;
+}
+
+#canvasContainer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.flower1{
+.flower1 {
     background-image: url("CCLab_Yelena/projectB/Flower-1.png");
     background-size: 50px;
     border: none;
     cursor: pointer;
-  }
-  
-h1{
+}
+
+h1 {
     color: white;
 }
 
-.stampsGallery{
-    display:flex;
-    scale:3%;
+.stampsGallery {
+    display: flex;
+    scale: 3%;
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
-  
-#start_capture{
-    display:flex;
+
+.singleStamp img {
+    width: 50px;
+    height: auto;
+}
+
+#start_capture {
+    display: flex;
     margin-bottom: 3vh;
 }
 
 
-.bigWrapper{
-    width:100%;
+.bigWrapper {
+    width: 100%;
     max-width: 800px;
-    height:100px;
-    background-color: blue;
-    margin:auto;
+    height: auto;
+    margin: auto;
 
 }
-#canvasContainer{
-    /* width:100%; */
-    /* height:100px; */
-    background-color: green;
+
+#canvasContainer {
+    /* background-color: green; */
+    border:1pt;
+    border-style: dashed;
+    border-color: aliceblue;
     aspect-ratio: 4 / 3;
 }
-.stampContainer{
+
+.stampContainer {
     display: flex;
     justify-content: space-around;
-
+   
 }
-.singleStamp{
-    outline: 1px solid red;
+
+.singleStamp {
     cursor: pointer;
+    border: 2px;
+    border-style:dashed;
+    border-color: white;
 }
 
-.shutterWrapper{
+.shutterWrapper {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+
+    font-size:large;
+    color: aliceblue;
+    font-family: 'Futura';
 }
 
+video{
+    position: fixed;
+    top: 0px ;
+    left: 0px ;
+
+    width:80px;
+    height:auto;
+}
+
+/* instructions button */
+#generateBtn {
+    display:flex;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #e2f0e5;
+    color: #BAB86C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top:30vh;
+    margin-top: 0px ;
+    left: 0px ;
+
+  }
+  
+  #textContainer {
+    display: flex;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    max-width:600px;
+    color: white;
+    background-color: #A43B2C;
+    /* border: none; */
+    font-size: 16px;
+    line-height: 1.5;
+
+    z-index:2;
+  }
+
+  a:link, a:visited {
+    background-color: #516e24;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #97c9c9;
+  }
+  
+.buttons{
+    display:flex;
+    align-items: center;
+    margin:auto;
+}

@@ -11,36 +11,40 @@
 
 <body>
 
+    <div class="video"></div>
 
     <div class="bigWrapper">
-        <div class="headline">Frida</div>
+        <div class="headline">Painting Your Portrait</div>
         <div id="canvasContainer"></div>
         <div class="stampContainer">
-            <div class="singleStamp" id="flowerStamp">image here</div>
-            <div class="singleStamp">euedsfdsfdsfgeodpjpomprows</div>
-            <div class="singleStamp">aefef</div>
+            <div class="singleStamp" id="flowerStamp" ><img src="gallery/stamp1.png" alt=""></div>
+            <div class="singleStamp" id="leafStamp1"><img src="gallery/stamp2.png" alt=""></div>
+            <div class="singleStamp" id="leafStamp2"><img src="gallery/stamp3.png" alt=""></div>
+            <div class="singleStamp" id="earringStamp1"><img src="gallery/stamp4.png" alt=""></div>
+            <div class="singleStamp" id="earringStamp2"><img src="gallery/stamp5.png" alt=""></div>
+            <div class="singleStamp" id="eyebrowStamp"><img src="gallery/stamp6.png" alt=""></div>
+
             
         </div>
-        <div class="shutterWrapper"> <div class="captureButton">cature</div></div>
+        <div class="shutterWrapper"> 
+            <div id="captureButton">capture</div>
+            <div id="export">export</div> 
+            <!-- need to figure out how to export -->
+        </div>
 
 
     </div>
-    <!-- <h1>"Frida Kahlo"</h1> 
 
-    <button id="start_capture">Capture</button>
-
-    <button id="flower1" class="Stamp"></button>
-
-    <div class="stampsGallery">
-        <button id="Flower1"></button>
-        <button id="Leaf1"></button>
-        <button id="Leaf2"></button>
-        <button id="Earring1"></button>
-        <button id="Earring2"></button>
-
+    <!-- button for instructions -->
+    <div class="buttons">
+        <button id="generateBtn">instructions</button>
+        <div id="textContainer"></div>
+        
+        <!-- link to the first webpage -->
+        <div class="secondWebpage">
+            <a href="http://127.0.0.1:5500/projectB_page1/">going back to intros</a>
+        </div>
     </div>
-
-    <div id="canvasContainer"></div> -->
     
     <script src = "sketch.js"></script>
 </body>
