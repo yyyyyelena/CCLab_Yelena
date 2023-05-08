@@ -201,7 +201,7 @@ function generateText(){
   "<p>The top left corner of the screen is the mirror, you can see your image over there :)</p>"+
   "<p>When you are ready, click the capture button, and… Voila!! You ve got your picture captured!!</p>"+
   "<p>Next, click on the stamps, and move your mouse to wherever you want to put these stamps. By hitting the key ←/→, you are able to flip these stamps :)</p>"+
-  "<p>Click command+z at the same time as undo (but you can only undo the lastest stamp)"+
+  "<p>Click command+z at the same time as undo (but you can only undo the lastest stamp)</p>"+
   "<p>Note that you can recapture by clicking the capture button, but if you have already added stamps on your image, they will be gone;;</p>"+
   "<p>If you are ready, click the instruction button again, and this page will disappear~ </p>"+
   "<p>Click export to download your painting!!</p> "+
