@@ -113,16 +113,16 @@ h1 {
     line-height: 1.6;
 }
 
-/* hyper link styling */
-a:link, a:visited {
-    background-color: #4ca6a7;
-    color:white;
-    padding: 14px 25px;
+  a:link, a:visited {
+    background-color: #e2f0e5;
+    padding: 10px;
+    color: #516e24;
     text-align: center;
-    text-decoration:wavy;
+    text-decoration: none;
+    display: inline-block;
   }
   
-  a:hover, a:active {
-    color: #bb5642;
+  a:hover, a:active, .generateBtn:hover {
+    background-color: #516e24;
+    color:#e2f0e5;
   }
- 

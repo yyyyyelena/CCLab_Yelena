@@ -36,7 +36,7 @@ let exportButton = document.getElementById('export')
 
 function preload(){
   for(let i=1;i<13;i++){
-    let filename = "../diy/gallery/stamp"+i+".png";
+    let filename = "../diy/gallery2/stamp"+i+".png";
     stamp.push(loadImage(filename));
 }
 }
@@ -56,7 +56,6 @@ function setup() {
 
   // undo
   saveState();
-
 
 }
 
@@ -223,11 +222,11 @@ function Export (){
   saveCanvas('myCanvas', 'png');
 }
 
-// // 
 function keyPressed(e) {
   // check if the event parameter (e) has Z (keycode 90) and ctrl or cmnd
   if (e.keyCode == 90 && (e.ctrlKey || e.metaKey)) {
     undoToPreviousState();
+    console.log("we")
   }
 }
 
