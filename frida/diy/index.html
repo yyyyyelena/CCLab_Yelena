@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../library/p5.js"></script>
+</head>
+
+<body>
+
+    <div class="video"></div>
+
+    <div class="bigWrapper">
+        <div class="headline">Beyond the Mirror</div>
+        <div id="canvasContainer"></div>
+        <div class="stampContainer">
+            <div class="singleStamp" id="flowerStamp" ><img src="gallery/stamp1.png" alt=""></div>
+            <div class="singleStamp" id="leafStamp1"><img src="gallery/stamp2.png" alt=""></div>
+            <div class="singleStamp" id="leafStamp2"><img src="gallery/stamp3.png" alt=""></div>
+            <div class="singleStamp" id="earringStamp1"><img src="gallery/stamp4.png" alt=""></div>
+            <div class="singleStamp" id="earringStamp2"><img src="gallery/stamp5.png" alt=""></div>
+            <div class="singleStamp" id="eyebrowStamp"><img src="gallery/stamp6.png" alt=""></div>
+            <div class="singleStamp" id="flowerStamp2"><img src="gallery/stamp7.png" alt=""></div>
+            <div class="singleStamp" id="flowerStamp3"><img src="gallery/stamp8.png" alt=""></div>
+            <div class="singleStamp" id="flowerStamp4"><img src="gallery/stamp9.png" alt=""></div>
+            <div class="singleStamp" id="parrotStamp"><img src="gallery/stamp10.png" alt=""></div>
+            <div class="singleStamp" id="curveStamp"><img src="gallery/stamp11.png" alt=""></div>
+            <div class="singleStamp" id="flowerCurveStamp"><img src="gallery/stamp12.png" alt=""></div>
+
+            
+        </div>
+        <div class="shutterWrapper"> 
+            <div id="captureButton">capture</div>
+            <div id="export">export</div> 
+            <!-- need to figure out how to export -->
+        </div>
+
+
+    </div>
+
+    <!-- button for instructions -->
+    <div class="secondShutterWrapper">
+        <div>
+            <button class="generateBtn" id="generatetext">instructions</button>
+            <p id="textContainer"></p>
+        </div>
+        
+        <!-- link to the first webpage -->
+        <div class="secondShutterWrapper" id="secondWebpage">
+            <a href="..">going back to intros</a>
+        </div>
+    </div>
+    
+    <script src = "sketch.js"></script>
+</body>

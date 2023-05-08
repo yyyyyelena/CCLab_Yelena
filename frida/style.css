@@ -1,0 +1,128 @@
+/* Set the background color for the whole page */
+head, body {
+    background: url(paintings/background.png);
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	background-size: cover;
+}
+
+/* Set the font color and display mode for the page */
+body {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:10px;
+}
+
+/* Set the style for the page title */
+h1 {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    font-size: xxx-large;
+    font-family: 'Futura';
+    color: rgb(255, 243, 243);
+    background: #A43B2C;
+    white-space: nowrap;
+    margin: 2vh;
+    z-index: 10;
+}
+.welcomePage{
+    display: flex;
+    align-items:center;
+    width:100%;
+}
+.I_Paint_my_own img{
+    width:60%;
+    z-index: 2;
+
+}
+.myNotes,.introText, .introText{
+    display: flex;
+    width:40%;
+    opacity:0.2;
+    transition: opacity 3s ease-in-out;
+    background-color: white;
+    color:#A43B2C;
+    padding: 30px;
+    margin-left:-500px;
+    z-index: 3;    
+    font-size:20px;
+    line-height: 150%;
+}
+.myNotes:hover, .introText:hover{
+    opacity:1;
+} 
+
+#pic1 img{
+    max-width: 30%;
+    height: auto;
+}
+
+
+.introWrapper, .two_fridas, .selfPortrait, .frame{
+    /* background-color: aquamarine; */
+    width:fit-content;
+    display: flex;    
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#two_fridas_paintings img, #selfPortrait_paintings img{
+    max-width: 500px;
+    height:auto;
+    display:flex;
+    margin-left:20vh;
+}
+#two_fridas_paintings img,#theFrame img{
+    margin-left: 10vh;
+    margin-right:20vh;
+}
+#theFrame img, #foto{
+    max-width:400px;
+    height:auto;
+    display:flex;
+    margin-left:20vh;
+}
+
+.Texts{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; /* center vertically */
+}
+
+.title{
+    opacity: 1;
+    font-family: Impact;
+    font-size: larger;
+}
+
+.introText{
+    margin-left:auto;               
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:15px;
+    width:650px;
+    border-color: white;
+    border-style:inset;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* hyper link styling */
+a:link, a:visited {
+    background-color: #4ca6a7;
+    color:white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration:wavy;
+  }
+  
+  a:hover, a:active {
+    color: #bb5642;
+  }
+ 
