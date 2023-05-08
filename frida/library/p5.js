@@ -56414,7 +56414,7 @@
             if (type.substring(0, 7) === 'http://' || type.substring(0, 8) === 'https://') {
               // Image (absolute url)
               cursor = 'url('.concat(type, ') ').concat(coords, ', auto');
-            } else if (/\.(cur|jpg|jpeg|gif|png|CUR|JPG|JPEG|GIF|PNG)$/.test(type)) {
+            } else if (/\.(cur|jpg|jpeg|gif|png|CUR|JPG|JPEG|GIF|png)$/.test(type)) {
               // Image file (relative path) - Separated for performance reasons
               cursor = 'url('.concat(type, ') ').concat(coords, ', auto');
             } else {
