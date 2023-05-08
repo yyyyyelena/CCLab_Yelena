@@ -25,8 +25,8 @@ let buttonParrot = document.getElementById('parrotStamp')
 let buttonCurves = document.getElementById('curveStamp')
 let buttonFlowerCurve = document.getElementById('flowerCurveStamp')
 
-let scaleX = 0.8;
-let scaleY = 0.8;
+let scaleX = 0.6;
+let scaleY = 0.6;
 
 let textVisible = false;
 
@@ -36,7 +36,7 @@ let exportButton = document.getElementById('export')
 
 function preload(){
   for(let i=1;i<13;i++){
-    let filename = "gallery/stamp"+i+".png";
+    let filename = "../diy/gallery/stamp"+i+".png";
     stamp.push(loadImage(filename));
 }
 }
@@ -189,9 +189,9 @@ function flowerCurveButtonPressed(){
 
 function flipImages(){
   if (keyCode === LEFT_ARROW){
-    scaleX =-0.8
+    scaleX =-0.6
   } else if (keyCode === RIGHT_ARROW){
-    scaleX=0.8
+    scaleX=0.6
   }
 }
 
