@@ -36,7 +36,7 @@ let exportButton = document.getElementById('export')
 
 function preload(){
   for(let i=1;i<13;i++){
-    let filename = "../diy/Gallery/stamp"+i+".png";
+    let filename = "../diy/gallery/stamp"+i+".png";
     stamp.push(loadImage(filename));
 }
 }
