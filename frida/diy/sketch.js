@@ -55,7 +55,7 @@ function setup() {
   img = createImage(640, 480);
 
   // undo
-  saveState();
+  // saveState();
 
 
 }
